@@ -1,9 +1,3 @@
-
----
-
-#### `README.md`
-
-````markdown
 <div align="center">
 
 # 🚆 TRWL — Train Reservation Waiting List
@@ -272,7 +266,6 @@ train-reservation-waiting-list/
 *Zero dependencies · MIT License*
 
 </div>
-````
 
 ---
 
