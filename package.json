@@ -1,0 +1,13 @@
+{
+  "name": "train-reservation-waiting-list",
+  "version": "1.0.0",
+  "description": "TRWL — dynamic railway booking & FIFO waiting-list management using a singly linked list, linked queue, linked stack, linear search and insertion sort (Data Structures PBL project).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run-tests.js"
+  },
+  "engines": { "node": ">=16" },
+  "keywords": ["data-structures", "linked-list", "queue", "stack", "railway", "reservation", "academic-project"],
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+train-reservation-waiting-list/
+├── server.js                  # entry point — HTTP API + static frontend hosting
+├── package.json
+├── backend/
+│   ├── logger.js              # colour-coded terminal logs + startup banner
+│   ├── reservationSystem.js   # domain core: book, cancel, promote, undo, search, sort
+│   └── core/                  # the pure ADTs & algorithms (viva gold)
+│       ├── linkedList.js      # CO1 — singly linked list (head + tail)
+│       ├── queue.js           # CO2 — linked queue (front + rear, FIFO)
+│       ├── stack.js           # CO2 — linked stack (LIFO undo history)
+│       ├── search.js          # CO3 — linear search
+│       └── sort.js            # CO3 — insertion sort (in-place node relinking)
+├── frontend/
+│   ├── index.html
+│   ├── css/style.css
+│   └── js/app.js
+├── tests/
+│   └── run-tests.js           # TC01–TC16 + live HTTP API integration tests
+└── README.md
